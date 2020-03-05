@@ -47,3 +47,13 @@ while (Number(book.genre)) {
 }
 
 console.log(book);
+
+let myBook = [
+  book.lastName,
+  book.firstName,
+  book.title,
+  book.period,
+  book.genre
+];
+
+console.log(myBook);
