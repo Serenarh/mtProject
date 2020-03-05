@@ -1,31 +1,40 @@
-<!--Began with the file you gave us at https://dev.to/iggredible/html-forms-101-3g7l-->
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <form method="POST" action="create">
-    <label for="lastname">Last Name:</label>
-    <input type="text" id="lastname" name="last_name">
-    <!-- <button type="submit">Submit</button> -->
-    <br> <br>
-    <label for="firstname">First Name:</label>
-    <input type="text" id="firstname" name="first_name">
-    <!-- <button type="submit">Submit</button> -->
-    <br><br>
-    <label for="title">Title:</label>
-    <input type="text" id="title" name="title">
-    <!-- <button type="submit">Submit</button> -->
-    <br><br>
-    <label for="period">Period:</label>
-    <input type="text" id="period" name="period">
-    <!-- <button type="submit">Submit</button> -->
-    <br><br>
-    <label for="genre">Genre:</label>
-    <input type="text" id="genre" name="genre">
-    <!-- <button type="submit">Submit</button> -->
-  </form>
-</head>
-<body>
+<html lang="en">	<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Book Sorter</title>
+  </head>
+  <body>
+    <form method="POST" action="create">
+      <div>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="last_name" />
+      </div>
+
+      <div>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="first_name" />
+      </div>
+
+      <div>
+        <label for="title">Author:</label>
+        <input type="text" id="title" name="title" />
+      </div>
+
+      <div>
+        <label for="period">Period:</label>
+        <input type="text" id="period" name="period" />
+      </div>
+
+      <div>
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
 
 <script src="./scripts.js"></script></body>
+  </body>
 </html>
