@@ -45,3 +45,5 @@ while (Number(book.genre)) {
   alert("You must enter a string, not a number.");
   book.genre = prompt("What is the book's genre?");
 }
+
+console.log(book);
